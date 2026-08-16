@@ -101,6 +101,21 @@ Final Implementation Results
 | Operating Frequency     |   68 MHz |
 
 
+Outputs:
+
+<img width="1512" height="772" alt="Behavioral Simulation" src="https://github.com/user-attachments/assets/5c58bdae-6ea8-4641-b1dc-738fb8e67a97" />
 
 
+<img width="644" height="364" alt="Implementation - Power Summary" src="https://github.com/user-attachments/assets/81636b02-9a77-4e9c-b543-583f6939e8cb" />
 
+
+<img width="501" height="136" alt="Implementation - Utliization Summary" src="https://github.com/user-attachments/assets/662f28c2-b0f3-4475-a080-8c945f52a7f5" />
+
+
+<img width="804" height="160" alt="Implementation - Design Timing Summary" src="https://github.com/user-attachments/assets/227f67b1-debb-47c7-b256-a6d3f9547358" />
+
+
+<img width="649" height="141" alt="Implementation - Intra Clock Paths" src="https://github.com/user-attachments/assets/fd5e4940-8b69-48fc-802c-92c8de698d39" />
+
+
+<img width="543" height="2841" alt="Overall Design and Verification Flow" src="https://github.com/user-attachments/assets/c7c784f7-b83d-4edd-aa60-b777e88191c5" />
