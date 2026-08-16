@@ -68,3 +68,39 @@ A = FF
 B = FF
 Expected Product = FE01
 Generated Product = FE01
+```
+
+###
+Timing Characterization
+
+The design was initially evaluated with a 100 MHz clock constraint. Static timing analysis showed that the design could not satisfy the 10 ns clock period after implementation.
+
+The clock frequency was then reduced and evaluated at different values.
+| Clock Frequency | Clock Period | Implementation WNS | Timing Status |
+| --------------- | -----------: | -----------------: | ------------- |
+| 100 MHz         |    10.000 ns |          -4.081 ns | Not Met       |
+| 70 MHz          |    14.286 ns |          -0.125 ns | Not Met       |
+| 68 MHz          |    14.706 ns |           0.148 ns | Met           |
+
+
+The final operating frequency was selected as 68 MHz because it was the highest tested frequency at which the implemented design satisfied the specified timing constraints.
+
+Final Implementation Results
+| Parameter               |   Result |
+| ----------------------- | -------: |
+| LUTs                    |      133 |
+| I/O Pins                |       32 |
+| DSP Blocks              |        0 |
+| Total On-Chip Power     |  0.124 W |
+| Dynamic Power           |  0.027 W |
+| Static Power            |  0.097 W |
+| Setup WNS               | 0.148 ns |
+| Hold WNS                | 2.799 ns |
+| Setup TNS               | 0.000 ns |
+| Failing Setup Endpoints |        0 |
+| Operating Frequency     |   68 MHz |
+
+
+
+
+
